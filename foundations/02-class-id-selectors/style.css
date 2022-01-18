@@ -1,0 +1,16 @@
+.class-txt {
+    background-color: hsl(0, 100%, 80%);
+}
+.cooler-class-txt {
+    background-color: hsl(0, 100%, 80%);
+    font-size: larger;
+}
+#id-txt {
+    color: hsl(255, 100%, 50%);
+    font-size: xx-large;
+}
+#alt-id-txt {
+    background-color: hsl(120, 100%, 80%);
+    color: hsl(0, 0%, 0%);   
+    font-size: x-large;
+}
