@@ -5,6 +5,63 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  justify-content: space-between;
+}
+
+body, .content {
+  flex-direction: column;
+}
+
+ul {
+  display: inline-flex;
+  gap: 22px;
+  list-style: none;
+  padding-left: 1em;
+  text-indent: -1em;
+  /* text-align: center; */
+  /* column-count: 2; */
+  /* list-style-image: 1fr; */
+  /* margin-right: 42.6px; */
+}
+
+li {
+
+  /* float: left; */
+}
+
+.right-links {
+  /* transform: scaleX(-1); */
+}
+
+a {
+  font-size: 14px;
+  text-decoration: none;
+  color: black;
+  margin-right: 8px;
+}
+
+.header, .footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+}
+
+.header {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.footer {
+  padding-bottom: 0px;
+  padding-top: 0px;
+  background: lightgray;
+}
+
+.content
+{
+  display: flex;
+  align-items: center;
 }
 
 img {
@@ -12,6 +69,7 @@ img {
 }
 
 button {
+  padding: 10px;
   font-family: Roboto, sans-serif;
   border: none;
   border-radius: 8px;
