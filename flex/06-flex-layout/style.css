@@ -26,11 +26,11 @@ ul {
 }
 
 li {
-
   /* float: left; */
 }
 
-.right-links {
+.right-links, .left-links {
+  gap: 36px;
   /* transform: scaleX(-1); */
 }
 
@@ -38,7 +38,6 @@ a {
   font-size: 14px;
   text-decoration: none;
   color: black;
-  margin-right: 8px;
 }
 
 .header, .footer {
