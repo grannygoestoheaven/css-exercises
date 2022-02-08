@@ -19,10 +19,6 @@ ul {
   list-style: none;
   padding-left: 1em;
   text-indent: -1em;
-  /* text-align: center; */
-  /* column-count: 2; */
-  /* list-style-image: 1fr; */
-  /* margin-right: 42.6px; */
 }
 
 li {
@@ -31,6 +27,7 @@ li {
 
 .right-links, .left-links {
   gap: 36px;
+  margin: 0;
   /* transform: scaleX(-1); */
 }
 
@@ -47,14 +44,16 @@ a {
 }
 
 .header {
-  padding-top: 0px;
-  padding-bottom: 0px;
+  padding: 16px;
+  /* padding-top: 0px;
+  padding-bottom: 0px; */
 }
 
 .footer {
-  padding-bottom: 0px;
-  padding-top: 0px;
-  background: lightgray;
+  padding: 16px;
+  /* padding-bottom: 0px;
+  padding-top: 0px; */
+  background: #eee;
 }
 
 .content
